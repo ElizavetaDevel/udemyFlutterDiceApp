@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
-import 'package:dice_app/dice_stateless.dart';
+import 'package:dice_app/scenes/dice_widget.dart';
 
 final randomizer = Random();
 
-class DiceRoller extends StatefulWidget {
-  const DiceRoller({
+class DiceController extends StatefulWidget {
+  const DiceController({
     super.key,
   });
 
   @override
-  State<DiceRoller> createState() => _DiceRollerState();
+  State<DiceController> createState() => _DiceControllerState();
 }
 
-class _DiceRollerState extends State<DiceRoller> {
+class _DiceControllerState extends State<DiceController> {
   var currentDiceRoll = 1;
 
   rollDice() {

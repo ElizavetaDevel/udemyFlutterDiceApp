@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:dice_app/gradient_container.dart';
-import 'package:dice_app/styled_text.dart';
+import 'package:dice_app/base_ui/gradient_container.dart';
+import 'package:dice_app/base_ui/styled_text.dart';
 
 class DiceWidget extends StatelessWidget {
   static const colors = [Colors.black26, Colors.cyan];
